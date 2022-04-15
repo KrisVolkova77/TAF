@@ -1,9 +1,9 @@
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class RetrayTest {
+public class RetryTest extends BaseTest {
     private int attempt =1;
-    @Test
+    @Test(retryAnalyzer = Retry.class)
 public void flakyTest(){
         if(attempt ==4) {
             Assert.assertTrue(true);
