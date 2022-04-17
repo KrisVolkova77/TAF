@@ -3,8 +3,8 @@ public class dz1 {
     public dz1(Double title) {
         this.title = title;
     }
-    public static double mult(double a, double b){
-            return a * b;
+    public static double div(double a, double b){
+            return a / b;
         }
 
     }
