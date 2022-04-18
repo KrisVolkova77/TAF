@@ -20,6 +20,7 @@ public class dz2test {
     }
 
 
+
     @Test(testName = "Test with name")
     public void testdiv3() throws InterruptedException {
         Assert.assertEquals(dz2.div(20, 2), 40, "OK...");
