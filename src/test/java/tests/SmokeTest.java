@@ -49,64 +49,55 @@ public class SmokeTest {
         selectSex.selectByVisibleText("женский");
         Thread.sleep(2000);
 
-        WebElement nCr = driver.findElement(By.id("nCr"));
-        WebElement nAge = driver.findElement(By.id("nAge"));
-        WebElement nWeight = driver.findElement(By.id("nWeight"));
-        WebElement nHeight = driver.findElement(By.id("nHeight"));
-        WebElement button = driver.findElement(By.name("рассчитать"));
+        WebElement oCr = driver.findElement(By.id("oCr"));
+        WebElement oAge = driver.findElement(By.id("oAge"));
+        WebElement oWeight = driver.findElement(By.id("oWeight"));
+        WebElement oHeight = driver.findElement(By.id("oHeight"));
+        WebElement button = driver.findElement(By.id("рассчитать"));
         button.click();
 
-        nCr.sendKeys("80");
-        nAge.sendKeys("38");
-        nWeight.sendKeys("55");
-        nHeight.sendKeys("163");
+        oCr.sendKeys("80");
+        oAge.sendKeys("38");
+        oWeight.sendKeys("55");
+        oHeight.sendKeys("163");
 
         Thread.sleep(2000);
 
-        WebElement result = driver.findElement(By.id("txtMDRD"));
-        Assert.assertEquals(result.getText(), "MDRD: 74 (мл/мин/1,73кв.м)");
+        WebElement mdrdResult = driver.findElement(By.id("txtMDRD"));
+        Assert.assertEquals(mdrdResult.getText(), "MDRD: 74 (мл/мин/1,73кв.м)");
 
-        WebElement result1 = driver.findElement(By.id("txtMDRD1"));
-        Assert.assertEquals(result.getText(), "ХБП: 2 стадия (при наличии почечного повреждения)");
+        WebElement hbpResult = driver.findElement(By.id("txtMDRD1"));
+        Assert.assertEquals(hbpResult.getText(), "ХБП: 2 стадия (при наличии почечного повреждения)");
 
-        WebElement result2 = driver.findElement(By.id("txtCG"));
-        Assert.assertEquals(result.getText(), "Cockroft-Gault: 70 (мл/мин)");
+        WebElement cgResult = driver.findElement(By.id("txtCG"));
+        Assert.assertEquals(cgResult.getText(), "Cockroft-Gault: 70 (мл/мин)");
 
-        WebElement result3 = driver.findElement(By.id("txtBSA"));
-        Assert.assertEquals(result.getText(), "Поверхность тела:1.58 (кв.м)");
+        WebElement bsaResult = driver.findElement(By.id("txtBSA"));
+        Assert.assertEquals(bsaResult.getText(), "Поверхность тела:1.58 (кв.м)");
 
 
 
     }
 
     @Test
-    public void validateHome() throws InterruptedException {
+    public void validatehome() throws InterruptedException {
         driver.get("https://kermi-fko.ru/raschety/Calc-Rehau-Solelec.aspx");
-        WebElement el_f_width = driver.findElement(By.name("el_f_width"));
-        WebElement el_f_lenght = driver.findElement(By.name("el_f_lenght"));
-        WebElement selectWebElement = driver.findElement(By.id("hfcol1"));
-        Select selecthfcol1 = new Select(selectWebElement);
-        selecthfcol1.selectByIndex(1);
-        Thread.sleep(2000);
-        selecthfcol1.selectByValue("0");
-        Thread.sleep(2000);
-        selecthfcol1.selectByVisibleText("кухня или спальня");
-        Thread.sleep(2000);
+        WebElement el_f_width = driver.findElement(By.id("el_f_width"));
+        WebElement el_f_lenght = driver.findElement(By.id("el_f_lenght"));
+
+        WebElement selectWebElement = driver.findElement(By.id("room_type"));
+        Select selectRoomType = new Select(selectWebElement);
+        selectRoomType.selectByValue("3");
 
         WebElement heating_type = driver.findElement(By.id("heating_type"));
-        Select selectSex = new Select(selectWebElement);
-        selectSex.selectByIndex(1);
-        Thread.sleep(2000);
-        selectSex.selectByValue("0");
-        Thread.sleep(2000);
-        selectSex.selectByVisibleText("основное отопление");
-        Thread.sleep(2000);
+        Select selectHeatingType = new Select(selectWebElement);
+        selectHeatingType.selectByValue("3");
 
-        WebElement hfcol1 = driver.findElement(By.id("hfcol1"));
-
-
-
-
+        WebElement el_f_losses = driver.findElement(By.id("el_f_losses"));
+        WebElement floor_cable_power = driver.findElement(By.id("floor_cable_power"));
+        WebElement spec_floor_cable_power = driver.findElement(By.id("spec_floor_cable_power"));
+        WebElement button = driver.findElement(By.id("button"));
+        button.click();
 
 
 
