@@ -8,6 +8,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import org.w3c.dom.html.HTMLInputElement;
 import services.BrowsersService;
 
 public class SmokeTest {
@@ -39,7 +40,6 @@ public class SmokeTest {
     public void validateSKF() throws InterruptedException {
         driver.get("http://13gp.by/informatsiya/meditsinskie-kalkulyatory/995-raschet-skorosti-klubochkovoj-filtratsii-skf");
 
-
         WebElement selectWebElement = driver.findElement(By.id("oSex"));
         Select selectSex = new Select(selectWebElement);
         selectSex.selectByIndex(1);
@@ -48,8 +48,71 @@ public class SmokeTest {
         Thread.sleep(2000);
         selectSex.selectByVisibleText("женский");
         Thread.sleep(2000);
+
+        WebElement nCr = driver.findElement(By.id("nCr"));
+        WebElement nAge = driver.findElement(By.id("nAge"));
+        WebElement nWeight = driver.findElement(By.id("nWeight"));
+        WebElement nHeight = driver.findElement(By.id("nHeight"));
+        WebElement button = driver.findElement(By.name("рассчитать"));
+        button.click();
+
+        nCr.sendKeys("80");
+        nAge.sendKeys("38");
+        nWeight.sendKeys("55");
+        nHeight.sendKeys("163");
+
+        Thread.sleep(2000);
+
+        WebElement result = driver.findElement(By.id("txtMDRD"));
+        Assert.assertEquals(result.getText(), "MDRD: 74 (мл/мин/1,73кв.м)");
+
+        WebElement result1 = driver.findElement(By.id("txtMDRD1"));
+        Assert.assertEquals(result.getText(), "ХБП: 2 стадия (при наличии почечного повреждения)");
+
+        WebElement result2 = driver.findElement(By.id("txtCG"));
+        Assert.assertEquals(result.getText(), "Cockroft-Gault: 70 (мл/мин)");
+
+        WebElement result3 = driver.findElement(By.id("txtBSA"));
+        Assert.assertEquals(result.getText(), "Поверхность тела:1.58 (кв.м)");
+
+
+
     }
 
+    @Test
+    public void validateHome() throws InterruptedException {
+        driver.get("https://kermi-fko.ru/raschety/Calc-Rehau-Solelec.aspx");
+        WebElement el_f_width = driver.findElement(By.name("el_f_width"));
+        WebElement el_f_lenght = driver.findElement(By.name("el_f_lenght"));
+        WebElement selectWebElement = driver.findElement(By.id("hfcol1"));
+        Select selecthfcol1 = new Select(selectWebElement);
+        selecthfcol1.selectByIndex(1);
+        Thread.sleep(2000);
+        selecthfcol1.selectByValue("0");
+        Thread.sleep(2000);
+        selecthfcol1.selectByVisibleText("кухня или спальня");
+        Thread.sleep(2000);
+
+        WebElement heating_type = driver.findElement(By.id("heating_type"));
+        Select selectSex = new Select(selectWebElement);
+        selectSex.selectByIndex(1);
+        Thread.sleep(2000);
+        selectSex.selectByValue("0");
+        Thread.sleep(2000);
+        selectSex.selectByVisibleText("основное отопление");
+        Thread.sleep(2000);
+
+        WebElement hfcol1 = driver.findElement(By.id("hfcol1"));
+
+
+
+
+
+
+
+
+
+    }
 
     @AfterMethod
     public void tearDown() {
