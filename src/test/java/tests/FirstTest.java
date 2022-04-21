@@ -2,6 +2,8 @@ package tests;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
+import services.AdvancedDriver;
+import services.SimpleDriver;
 
 public class FirstTest {
     private WebDriver driver;
