@@ -46,7 +46,4 @@ public class BrowsersService {
 
         return driver;
     }
-
-    private class DriverManagerType {
-    }
 }
