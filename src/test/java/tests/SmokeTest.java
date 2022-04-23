@@ -8,7 +8,6 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import org.w3c.dom.html.HTMLInputElement;
 import services.BrowsersService;
 
 public class SmokeTest {
