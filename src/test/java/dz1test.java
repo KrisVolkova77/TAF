@@ -4,11 +4,13 @@ import org.testng.annotations.Test;
 
 import static java.lang.Thread.sleep;
 
+// ToDo: Название тестового метода мне не нравиться
 public class dz1test {
     @Test
     public void testdiv() {
         Assert.assertEquals(dz1.div(10, 2), 5, "Верное...");
     }
+    // ToDo: Сообщение в Assert выводиться только в случае ошибки и должно быть направлено на пояснение случившегося.
 
     @Test(enabled = false)
     public void testdiv1() {
@@ -36,6 +38,12 @@ public class dz1test {
     @Test(dataProvider = "dataForDiv", dataProviderClass = StaticProvider.class)
     public void testDataProvider(int a, int b, int expectedResult) {
         Assert.assertEquals(dz1.div(a, b), expectedResult, "Верное...");}
+
+    // ToDo: Отсутствуют тесты деления на 0
+    // ToDo: Отсутствуют тесты с параметрами передаваемыми из TestNG.xml
+    // ToDo: Название тестовых методов - переделать согласно https://dzone.com/articles/7-popular-unit-test-naming
+    // ToDo: Отсутствуют зависимые тесты
+    // ToDo: Отсутствуют приоритизированные тесты
 }
 
 
