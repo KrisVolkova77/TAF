@@ -18,8 +18,7 @@ public class BasicLocatorTest {
     }
 
     @AfterMethod
-    public void tearDown(){
-        driver.close();
+    public void tearDown(){ driver.close();
     }
 
     @Test
@@ -57,3 +56,5 @@ public class BasicLocatorTest {
 
     }
 }
+
+
