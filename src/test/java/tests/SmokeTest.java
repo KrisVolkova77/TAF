@@ -59,53 +59,23 @@ public class SmokeTest {
         oAge.sendKeys("38");
         oWeight.sendKeys("55");
         oHeight.sendKeys("163");
+        button.click();
 
         Thread.sleep(2000);
 
-        WebElement mdrdResult = driver.findElement(By.id("txtMDRD"));
-        Assert.assertEquals(mdrdResult.getText(), "MDRD: 74 (мл/мин/1,73кв.м)");
-
-        WebElement hbpResult = driver.findElement(By.id("txtMDRD1"));
-        Assert.assertEquals(hbpResult.getText(), "ХБП: 2 стадия (при наличии почечного повреждения)");
-
-        WebElement cgResult = driver.findElement(By.id("txtCG"));
-        Assert.assertEquals(cgResult.getText(), "Cockroft-Gault: 70 (мл/мин)");
-
-        WebElement bsaResult = driver.findElement(By.id("txtBSA"));
-        Assert.assertEquals(bsaResult.getText(), "Поверхность тела:1.58 (кв.м)");
-
-
-
-    }
-
-    @Test
-    public void validatehome() throws InterruptedException {
-        driver.get("https://kermi-fko.ru/raschety/Calc-Rehau-Solelec.aspx");
-        WebElement el_f_width = driver.findElement(By.id("el_f_width"));
-        WebElement el_f_lenght = driver.findElement(By.id("el_f_lenght"));
-
-        WebElement selectWebElement = driver.findElement(By.id("room_type"));
-        Select selectRoomType = new Select(selectWebElement);
-        selectRoomType.selectByValue("3");
-
-        WebElement heating_type = driver.findElement(By.id("heating_type"));
-        Select selectHeatingType = new Select(selectWebElement);
-        selectHeatingType.selectByValue("3");
-
-        WebElement el_f_losses = driver.findElement(By.id("el_f_losses"));
-        WebElement floor_cable_power = driver.findElement(By.id("floor_cable_power"));
-        WebElement spec_floor_cable_power = driver.findElement(By.id("spec_floor_cable_power"));
-        WebElement button = driver.findElement(By.id("button"));
-        button.click();
-
-
-
-
-
+        WebElement resultMDRD = driver.findElement(By.id("txtMDRD"));
+        Assert.assertEquals(resultMDRD.getText(), "MDRD: 74 (мл/мин/1,73кв.м)");
+        WebElement resultMDRD1 = driver.findElement(By.id("txtMDRD1"));
+        Assert.assertEquals(resultMDRD1.getText(), "ХБП: 2 стадия (при наличии почечного повреждения)");
+        WebElement resultCG = driver.findElement(By.id("txtCG"));
+        Assert.assertEquals(resultCG.getText(), "Cockroft-Gault: 70 (мл/мин)");
+        WebElement resultBSA = driver.findElement(By.id("txtBSA"));
+        Assert.assertEquals(resultBSA.getText(), "Поверхность тела:1.58 (кв.м)");
     }
 
     @AfterMethod
-    public void tearDown() {
+    public void tearDow() {
         driver.quit();
     }
+
 }
