@@ -4,7 +4,6 @@ import Confuguration.ReadProperties;
 import baseEntities.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.ProjectsPage;
 
 public class MenuTest extends BaseTest {
 
