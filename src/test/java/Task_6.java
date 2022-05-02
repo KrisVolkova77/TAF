@@ -92,7 +92,23 @@ public class Task_6 {
 
 
         //xpath
-        //Поиск по атрибуту, например By.xpath("//tag[@attribute='value']");
+        //Поиск по атрибуту
+        Assert.assertTrue(driver.findElement(By.xpath("//*[@id = 'root']")).isDisplayed());
+
+        //Поиск по частичному совпадению атрибута
+        Assert.assertTrue(driver.findElement(By.xpath("//*[starts-with(@class, 'login_logo')]")).isDisplayed());
+
+        //Поиск по частичному совпадению текста
+        Assert.assertTrue(driver.findElement(By.xpath("//*[contains(text(), 'ma')]")).isDisplayed());
+
+        //Поиск по ancestor
+        Assert.assertTrue(driver.findElement(By.xpath("//option/ancestor::select")).isDisplayed());
+
+        //Поиск по descendant
+        Assert.assertTrue(driver.findElement(By.xpath("//select/descendant::option")).isDisplayed());
+
+        //Поиск элемента с условием AND
+        Assert.assertTrue(driver.findElement(By.xpath("")).isDisplayed());
 
         }
         }
