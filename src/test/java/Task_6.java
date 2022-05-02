@@ -25,6 +25,7 @@ public class Task_6 {
         driver.close();
 
     }
+
     @Test
     public void task_6() throws InterruptedException {
         driver.get("https://www.saucedemo.com/\n");
@@ -108,10 +109,12 @@ public class Task_6 {
         Assert.assertTrue(driver.findElement(By.xpath("//select/descendant::option")).isDisplayed());
 
         //Поиск элемента с условием AND
-        Assert.assertTrue(driver.findElement(By.xpath("")).isDisplayed());
+        Assert.assertTrue(driver.findElement(By.xpath("/~and~/g,\"&\"")).isDisplayed());
 
-        }
-        }
+    }
+
+    }
+
 
 
 
