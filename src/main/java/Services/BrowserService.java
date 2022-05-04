@@ -2,16 +2,12 @@ package Services;
 
 import Confuguration.ReadProperties;
 import io.github.bonigarcia.wdm.WebDriverManager;
-
 import io.github.bonigarcia.wdm.config.DriverManagerType;
-
 import org.openqa.selenium.WebDriver;
-
 import org.openqa.selenium.chrome.ChromeDriver;
-
 import org.openqa.selenium.chrome.ChromeOptions;
 
-
+import java.time.Duration;
 import java.util.Locale;
 
 public class BrowserService {
@@ -41,6 +37,12 @@ public class BrowserService {
     public WebDriver getDriver() {
         //driver.manage().window().maximize();
         //driver.manage().deleteAllCookies();
+        driver.manage().deleteAllCookies();
+        //driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(40));
+        driver.manage().timeouts().scriptTimeout(Duration.ofSeconds(60));
+
         return this.driver;
 
 
