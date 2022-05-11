@@ -5,21 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea815617-7d58-43d6-ac1e-40455766b714" name="Changes" comment="class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Services/WaitsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ActionsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/WaitsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/AlertTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/FramTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/JSTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/WindowsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Confuguration/ReadProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Confuguration/ReadProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Services/BrowserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Services/BrowserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/baseEntities/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseEntities/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/DashboardPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Confuguration/ReadProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Confuguration/ReadProperties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Services/BrowserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Services/BrowserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/LoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baseEntities/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseEntities/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +75,7 @@
       <recent name="C:\proekt\src\test\java\baseEntities" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ActionsTest.hoverTest">
+  <component name="RunManager" selected="TestNG.JSTest.actionTest1">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,7 +87,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ActionsTest.hoverTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AlertTest.infoAlertTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TAF" />
       <extension name="coverage">
         <pattern>
@@ -105,8 +96,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ActionsTest" />
-      <option name="METHOD_NAME" value="hoverTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.AlertTest" />
+      <option name="METHOD_NAME" value="infoAlertTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -114,7 +105,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AlertTest.prontAlertTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TAF" />
       <extension name="coverage">
         <pattern>
@@ -123,8 +114,27 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.LoginTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="tests.AlertTest" />
+      <option name="METHOD_NAME" value="prontAlertTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JSTest.actionTest1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TAF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.JSTest" />
+      <option name="METHOD_NAME" value="actionTest1" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -149,11 +159,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WindowsTest.newTabTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TAF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.WindowsTest" />
+      <option name="METHOD_NAME" value="newTabTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ActionsTest.hoverTest" />
+        <item itemvalue="TestNG.JSTest.actionTest1" />
+        <item itemvalue="TestNG.WindowsTest.newTabTest" />
+        <item itemvalue="TestNG.AlertTest.prontAlertTest" />
+        <item itemvalue="TestNG.AlertTest.infoAlertTest" />
         <item itemvalue="TestNG.WaitsTest.presenceOfElementTest1" />
-        <item itemvalue="TestNG.LoginTest" />
       </list>
     </recent_temporary>
   </component>
