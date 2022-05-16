@@ -15,3 +15,11 @@
     }
   ]
 }
+
+
+{
+  "name": "Test Project",
+  "announcement": "Big test data...",
+  "show_announcement": false,
+  "type": 2
+}

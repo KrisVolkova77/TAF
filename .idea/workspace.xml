@@ -4,9 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea815617-7d58-43d6-ac1e-40455766b714" name="Changes" comment="class">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/test.json" afterDir="false" />
+    <list default="true" id="ea815617-7d58-43d6-ac1e-40455766b714" name="Changes" comment="home">
+      <change afterPath="$PROJECT_DIR$/src/test/java/models/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ProjectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/SerializationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/progect.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/project.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_9_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TAF.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TAF.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baseEntities/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseEntities/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/test.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/test.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +38,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="PageObject_Simple" />
+        <entry key="$PROJECT_DIR$" value="AdvancedActions" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,6 +65,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/baseEntities" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
@@ -71,7 +81,7 @@
       <recent name="C:\proekt\src\test\java\baseEntities" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.JSTest.actionTest1">
+  <component name="RunManager" selected="TestNG.ProjectTest.addProjectTest">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -83,7 +93,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AlertTest.infoAlertTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ProjectTest.addProjectTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TAF" />
       <extension name="coverage">
         <pattern>
@@ -92,8 +102,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.AlertTest" />
-      <option name="METHOD_NAME" value="infoAlertTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.ProjectTest" />
+      <option name="METHOD_NAME" value="addProjectTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -101,7 +111,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AlertTest.prontAlertTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SerializationTest.jsonToObjectTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TAF" />
       <extension name="coverage">
         <pattern>
@@ -110,8 +120,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.AlertTest" />
-      <option name="METHOD_NAME" value="prontAlertTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.SerializationTest" />
+      <option name="METHOD_NAME" value="jsonToObjectTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -119,7 +129,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JSTest.actionTest1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SerializationTest.objectToJasonTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TAF" />
       <extension name="coverage">
         <pattern>
@@ -128,8 +138,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.JSTest" />
-      <option name="METHOD_NAME" value="actionTest1" />
+      <option name="MAIN_CLASS_NAME" value="tests.SerializationTest" />
+      <option name="METHOD_NAME" value="objectToJasonTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -175,10 +185,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.JSTest.actionTest1" />
+        <item itemvalue="TestNG.ProjectTest.addProjectTest" />
+        <item itemvalue="TestNG.SerializationTest.jsonToObjectTest" />
+        <item itemvalue="TestNG.SerializationTest.objectToJasonTest" />
         <item itemvalue="TestNG.WindowsTest.newTabTest" />
-        <item itemvalue="TestNG.AlertTest.prontAlertTest" />
-        <item itemvalue="TestNG.AlertTest.infoAlertTest" />
         <item itemvalue="TestNG.WaitsTest.presenceOfElementTest1" />
       </list>
     </recent_temporary>
