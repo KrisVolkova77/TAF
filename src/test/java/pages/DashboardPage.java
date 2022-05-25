@@ -32,5 +32,11 @@ public class DashboardPage extends BasePage {
     public WebElement getHeaderTitleLabel() {
         return waitsService.waitForExists(headerTitleLabelLocator);
     }
+
+    // Блок комплексных методов
+    public ProjectsOverviewPage openProject(String projectName) {
+        //ToDo: implement actions
+        return new ProjectsOverviewPage(driver);
+    }
 }
 

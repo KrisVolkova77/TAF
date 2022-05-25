@@ -4,6 +4,7 @@ import Confuguration.ReadProperties;
 import baseEntities.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import pages.LoginPage;
 
 public class LoginTest extends BaseTest {
 
@@ -17,6 +18,19 @@ public class LoginTest extends BaseTest {
                         .isPageOpened()
         );
     }
+
+    @Test
+    public void successLoginInvocationsTest() {
+        Assert.assertTrue(
+                new LoginPage(driver)
+                        .successLogin("123", "123")
+                        .openProject("jdfhdjf")
+                        .getTabByName("2567").isDisplayed()
+        );
+
+    }
+
+
 
     @Test
     public void incorrectEmailLoginTest() {
