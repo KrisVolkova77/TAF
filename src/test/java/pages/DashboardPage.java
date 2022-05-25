@@ -11,7 +11,7 @@ public class DashboardPage extends BasePage {
     public TopMenuPage topMenuPage;
 
     // Блок описания селекторов для элементов
-    private By headerTitleLabelLocator = By.xpath("//div[contains(@class, 'content-header-title') and contains(text(), 'Dashboard')]");
+    private By headerTitleLabel = By.xpath("//div[contains(@class, 'content-header-title') and contains(text(), 'Dashboard')]");
 
     public DashboardPage(WebDriver driver) {
         super(driver);
@@ -20,8 +20,8 @@ public class DashboardPage extends BasePage {
     }
 
     @Override
-    protected By getPageIdentifier() {
-        return headerTitleLabelLocator;
+    public WebElement getPageIdentifier() {
+        return (WebElement) headerTitleLabel;
     }
 
     public void openPageByUrl() {
@@ -30,7 +30,7 @@ public class DashboardPage extends BasePage {
 
     // Блок атомарных методов
     public WebElement getHeaderTitleLabel() {
-        return waitsService.waitForExists(headerTitleLabelLocator);
+        return waitsService.waitForExists(headerTitleLabel);
     }
 }
 

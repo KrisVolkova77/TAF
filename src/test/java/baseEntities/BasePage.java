@@ -2,8 +2,9 @@ package baseEntities;
 
 import Confuguration.ReadProperties;
 import Services.WaitsService;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.PageFactory;
 
 import java.time.Duration;
 
@@ -17,12 +18,14 @@ public abstract class BasePage {
 
         waitsService = new WaitsService(driver, Duration.ofSeconds(ReadProperties.timeout()));
 
+        PageFactory.initElements(driver,this); //this это имя того класса которого сейчас вызывает конструктор
+
     }
 
-    protected abstract By getPageIdentifier();
+    protected abstract WebElement getPageIdentifier();
 
     public boolean isPageOpened() {
-        return waitsService.waitForExists(getPageIdentifier()).isDisplayed();
+        return getPageIdentifier().isDisplayed();
     }
 
     public void openPageByUrl(String pagePath) {
