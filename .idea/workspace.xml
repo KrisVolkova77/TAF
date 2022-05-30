@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea815617-7d58-43d6-ac1e-40455766b714" name="Changes" comment="home">
-      <change afterPath="$PROJECT_DIR$/src/main/java/wrappers/UIElement.java" afterDir="false" />
+    <list default="true" id="ea815617-7d58-43d6-ac1e-40455766b714" name="Changes" comment="class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/wrappers/RadioButton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wrappers/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wrappers/Button.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wrappers/UIElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wrappers/UIElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +82,7 @@
       <recent name="C:\proekt\src\test\java\baseEntities" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest.incorrectEmailLoginTest">
+  <component name="RunManager" selected="TestNG.LoginTest.radioButtonTest">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -86,24 +90,6 @@
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AlertTest.infoAlertTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TAF" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.AlertTest" />
-      <option name="METHOD_NAME" value="infoAlertTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -162,6 +148,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoginTest.radioButtonTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TAF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.LoginTest" />
+      <option name="METHOD_NAME" value="radioButtonTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProjectTest.addProjectTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TAF" />
       <extension name="coverage">
@@ -182,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginTest.radioButtonTest" />
         <item itemvalue="TestNG.ProjectTest.addProjectTest" />
         <item itemvalue="TestNG.LoginTest.incorrectEmailLoginTest" />
         <item itemvalue="TestNG.JSTest.clickJSTest" />
         <item itemvalue="TestNG.AllureTest.testName2" />
-        <item itemvalue="TestNG.AlertTest.infoAlertTest" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652724558606</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="class">
+      <created>1653930290241</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1653930290241</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
