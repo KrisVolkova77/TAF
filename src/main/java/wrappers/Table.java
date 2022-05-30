@@ -37,6 +37,18 @@ public class Table {
 
     }
 
+    public int getColumnIndex(String header) {
+        int index=0;
+       for(UIElement element:uiElement.findUIElements(By.name("th"))){
+           if(element.getText().equals(header)){
+               return index;
+           }
+           index++;
+       }
+       return -1;
+
+    }
+
     public UIElement getCell(int columnNumber, int rowNumber) {
         TableRow row = getRow(rowNumber);
         ArrayList<UIElement> list = row.findUIElements(By.tagName("td"));
