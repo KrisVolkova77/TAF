@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea815617-7d58-43d6-ac1e-40455766b714" name="Changes" comment="class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/wrappers/RadioButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wrappers/Table.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wrappers/TableRow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/wrappers/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wrappers/Button.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/wrappers/UIElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wrappers/UIElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +63,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/utils" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/wrappers" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
@@ -74,6 +71,7 @@
       <recent name="baseEntities" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\proekt\src\main\java\wrappers" />
       <recent name="C:\proekt\src\test\java\utils" />
       <recent name="C:\proekt\src\test\resources" />
       <recent name="C:\proekt\src\test\java\baseEntities" />
@@ -252,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653930290241</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="class">
+      <created>1653934232026</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1653934232026</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
