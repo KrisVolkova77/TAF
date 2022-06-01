@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea815617-7d58-43d6-ac1e-40455766b714" name="Changes" comment="class">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/LoggerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2-test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LombokTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LombokTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TAF.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TAF.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +32,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Wrappers" />
+        <entry key="$PROJECT_DIR$" value="Lombok" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,7 +64,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/wrappers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -69,9 +72,9 @@
       <recent name="baseEntities" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\proekt\src\test\resources" />
       <recent name="C:\proekt\src\main\java\wrappers" />
       <recent name="C:\proekt\src\test\java\utils" />
-      <recent name="C:\proekt\src\test\resources" />
       <recent name="C:\proekt\src\test\java\baseEntities" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -81,7 +84,7 @@
       <recent name="models" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LombokTest.сleanUpTest">
+  <component name="RunManager" selected="TestNG.LoggerTest.logLevelsTest">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -93,7 +96,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.incorrectEmailLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoggerTest.logLevelsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TAF" />
       <extension name="coverage">
         <pattern>
@@ -102,8 +105,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.LoginTest" />
-      <option name="METHOD_NAME" value="incorrectEmailLoginTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.LoggerTest" />
+      <option name="METHOD_NAME" value="logLevelsTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -185,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoggerTest.logLevelsTest" />
         <item itemvalue="TestNG.LombokTest.сleanUpTest" />
         <item itemvalue="TestNG.LombokTest.valTest" />
         <item itemvalue="TestNG.LoginTest.radioButtonTest" />
         <item itemvalue="TestNG.ProjectTest.addProjectTest" />
-        <item itemvalue="TestNG.LoginTest.incorrectEmailLoginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -279,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654105084013</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="class">
+      <created>1654105978270</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1654105978270</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
