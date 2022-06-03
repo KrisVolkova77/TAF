@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29e263c3-5aa7-4a82-ac7a-e8d93f4bbb49" name="Changes" comment="home">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Task_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Task_6.java" afterDir="false" />
-    </list>
+    <list default="true" id="29e263c3-5aa7-4a82-ac7a-e8d93f4bbb49" name="Changes" comment="home" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,6 +43,19 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.Task_6.task_6_1">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="TAF" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="TAF" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Task_6" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TAF" />
       <option name="PACKAGE_NAME" value="" />
