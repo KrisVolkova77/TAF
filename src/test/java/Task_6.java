@@ -39,8 +39,8 @@ public class Task_6 {
         button.click();
         Thread.sleep(2000);
 
-        WebElement AddtoBasket = driver.findElement(By.cssSelector("vertical-align: inherit;"));
-        AddtoBasket.click();
+        WebElement AddToBasket = driver.findElement(By.cssSelector("vertical-align: inherit;"));
+        AddToBasket.click();
 
         WebElement Opencart = driver.findElement(By.cssSelector("shopping_cart_link"));
         Opencart.click();

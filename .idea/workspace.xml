@@ -16,13 +16,23 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="TestNG" />
+        <entry key="$PROJECT_DIR$" value="Locators" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -42,7 +52,7 @@
       <recent name="tests" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Task_6.task_6_1">
+  <component name="RunManager" selected="TestNG.Task_6">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="TAF" />
       <method v="2">
@@ -117,9 +127,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Task_6" />
         <item itemvalue="TestNG.Task_6.task_6_1" />
         <item itemvalue="TestNG.Task_6.task_6" />
-        <item itemvalue="TestNG.Task_6" />
         <item itemvalue="TestNG.Task_6.Task_6" />
         <item itemvalue="TestNG.Task_6.swaglabs" />
       </list>
@@ -169,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651495438277</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="home">
+      <created>1654245030766</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1654245030766</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
