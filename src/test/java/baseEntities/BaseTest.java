@@ -15,20 +15,22 @@ public abstract class BaseTest {
     protected NavigationStep navigationStep;
 
     @BeforeMethod
-    public void setup(){
+    public void setup() {
         driver = new BrowserService().getDriver();
         loginStep = new LoginStep(driver);
         navigationStep = new NavigationStep(driver);
 
         driver.get(ReadProperties.getUrl());
     }
+
     @AfterMethod
-    public void tearDown(){
+    public void tearDown() {
         driver.quit();
     }
 
     protected abstract By getPageIdentifier();
 
     protected abstract By successStartMilestoneButtonLocator();
+}
 
 
