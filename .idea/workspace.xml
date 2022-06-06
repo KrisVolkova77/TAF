@@ -4,9 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea815617-7d58-43d6-ac1e-40455766b714" name="Changes" comment="class">
+    <list default="true" id="ea815617-7d58-43d6-ac1e-40455766b714" name="Changes" comment="home">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LombokTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LombokTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Services/BrowserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Services/WaitsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wrappers/Button.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wrappers/RadioButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wrappers/Table.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wrappers/TableRow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wrappers/UIElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baseEntities/BasePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baseEntities/BaseStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baseEntities/BaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/models/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/models/Person1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/models/Person2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/models/Person3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/models/PersonBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/models/Project.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/DashboardPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ProjectsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/SideMenuPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/TopMenuPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/LoginStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/NavigationStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LombokTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SerializationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Listener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/progect.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/project.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/test.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/text.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +59,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Wrappers" />
+        <entry key="$PROJECT_DIR$" value="Lombok" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -185,10 +215,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ProjectTest.addProjectTest" />
         <item itemvalue="TestNG.LombokTest.сleanUpTest" />
         <item itemvalue="TestNG.LombokTest.valTest" />
         <item itemvalue="TestNG.LoginTest.radioButtonTest" />
-        <item itemvalue="TestNG.ProjectTest.addProjectTest" />
         <item itemvalue="TestNG.LoginTest.incorrectEmailLoginTest" />
       </list>
     </recent_temporary>
