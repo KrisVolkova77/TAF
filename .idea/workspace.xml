@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea815617-7d58-43d6-ac1e-40455766b714" name="Changes" comment="class">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/SelenideTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TAF.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TAF.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SelenideTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SelenideTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +84,7 @@
       <recent name="models" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SelenideTest.selenideTest1">
+  <component name="RunManager" selected="TestNG.SelenideTest.simpleSelenideTest">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -92,24 +92,6 @@
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LombokTest.сleanUpTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TAF" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.LombokTest" />
-      <option name="METHOD_NAME" value="сleanUpTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -143,6 +125,24 @@
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.SelenideTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelenideTest.poSelenideTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TAF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SelenideTest" />
+      <option name="METHOD_NAME" value="poSelenideTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -187,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SelenideTest.simpleSelenideTest" />
+        <item itemvalue="TestNG.SelenideTest.poSelenideTest" />
         <item itemvalue="TestNG.SelenideTest.selenideTest1" />
         <item itemvalue="TestNG.SelenideTest" />
-        <item itemvalue="TestNG.SelenideTest.simpleSelenideTest" />
         <item itemvalue="TestNG.ProjectTest.addProjectTest" />
-        <item itemvalue="TestNG.LombokTest.сleanUpTest" />
       </list>
     </recent_temporary>
   </component>
@@ -288,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654531944308</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="class">
+      <created>1654536288326</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1654536288326</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
