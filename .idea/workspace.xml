@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea815617-7d58-43d6-ac1e-40455766b714" name="Changes" comment="class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Confuguration/Endpoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/models/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/models/ProjectType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/api/BaseApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/api/HttpClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/api/ReqresInTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/api/TestTrailApiTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TAF.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TAF.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SelenideTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +75,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="tests.api" />
       <recent name="baseEntities" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -84,7 +91,7 @@
       <recent name="models" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SelenideTest.simpleSelenideTest">
+  <component name="RunManager" selected="TestNG.ReqresInTest.simpleShortApiTest">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,17 +103,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProjectTest.addProjectTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HttpClientTest.simpleApiTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TAF" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="models.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ProjectTest" />
-      <option name="METHOD_NAME" value="addProjectTest" />
+      <option name="PACKAGE_NAME" value="tests.api" />
+      <option name="MAIN_CLASS_NAME" value="tests.api.HttpClientTest" />
+      <option name="METHOD_NAME" value="simpleApiTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -114,17 +121,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelenideTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ReqresInTest.simpleShortApiTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TAF" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="models.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.SelenideTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="tests.api" />
+      <option name="MAIN_CLASS_NAME" value="tests.api.ReqresInTest" />
+      <option name="METHOD_NAME" value="simpleShortApiTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReqresInTest.simpleStepByApiTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TAF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.api" />
+      <option name="MAIN_CLASS_NAME" value="tests.api.ReqresInTest" />
+      <option name="METHOD_NAME" value="simpleStepByApiTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -135,7 +161,7 @@
       <module name="TAF" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="models.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,29 +175,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelenideTest.selenideTest1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TAF" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.SelenideTest" />
-      <option name="METHOD_NAME" value="selenideTest1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SelenideTest.simpleSelenideTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TAF" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="models.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ReqresInTest.simpleShortApiTest" />
+        <item itemvalue="TestNG.ReqresInTest.simpleStepByApiTest" />
+        <item itemvalue="TestNG.HttpClientTest.simpleApiTest" />
         <item itemvalue="TestNG.SelenideTest.simpleSelenideTest" />
         <item itemvalue="TestNG.SelenideTest.poSelenideTest" />
-        <item itemvalue="TestNG.SelenideTest.selenideTest1" />
-        <item itemvalue="TestNG.SelenideTest" />
-        <item itemvalue="TestNG.ProjectTest.addProjectTest" />
       </list>
     </recent_temporary>
   </component>
@@ -302,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654541607473</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="class">
+      <created>1654943725068</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1654943725069</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
