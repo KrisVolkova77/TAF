@@ -1,7 +1,9 @@
 package tests.api;
 
 import Confuguration.Endpoints;
+import com.google.gson.Gson;
 import io.restassured.http.Method;
+import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import models.Project;
@@ -14,29 +16,31 @@ import java.util.HashMap;
 import java.util.Map;
 
 import static io.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.equalTo;
+import static org.hamcrest.Matchers.is;
 
-public class TestTrailApiTest extends BaseApiTest{
+public class TestTrailApiTest extends BaseApiTest {
 
 
-@Test
-public void getAllProjectsTest() {
-    // Setup request Object
-    RequestSpecification httpRequest = given();
-    //httpRequest.header(HTTP.CONTENT_TYPE, ContentType.JSON);
-    //httpRequest.auth().preemptive().basic(ReadProperties.username(), ReadProperties.password());
+    @Test
+    public void getAllProjectsTest() {
+        // Setup request Object
+        RequestSpecification httpRequest = given();
+        //httpRequest.header(HTTP.CONTENT_TYPE, ContentType.JSON);
+        //httpRequest.auth().preemptive().basic(ReadProperties.username(), ReadProperties.password());
 
-    // Setup Response Object
-    Response response = httpRequest.request(Method.GET, Endpoints.GET_PROJECTS);
+        // Setup Response Object
+        Response response = httpRequest.request(Method.GET, Endpoints.GET_PROJECTS);
 
-    // Get Response Status
-    int statusCode = response.getStatusCode();
-    System.out.println("Status Code: " + statusCode);
-    Assert.assertEquals(statusCode, HttpStatus.SC_OK);
+        // Get Response Status
+        int statusCode = response.getStatusCode();
+        System.out.println("Status Code: " + statusCode);
+        Assert.assertEquals(statusCode, HttpStatus.SC_OK);
 
-    // Get Response Body
-    String responseBody = response.getBody().asString();
-    System.out.println("Response: " + responseBody);
-}
+        // Get Response Body
+        String responseBody = response.getBody().asString();
+        System.out.println("Response: " + responseBody);
+    }
 
     @Test
     public void getAllProjectsShortTest() {
@@ -111,6 +115,65 @@ public void getAllProjectsTest() {
 
         System.out.println(newProject.toString());
     }
+
+    @Test
+    public void validateNameOfProjectsShortTest() {
+        given()
+                .when()
+                .get(Endpoints.GET_PROJECTS)
+                .then()
+                .log().status()
+                .log().body()
+                .body("projects.get(0).id", is(1))
+                .body("projects.get(0).name", equalTo("WP Test"));
+
+    }
+
+    @Test
+    public void validateNameOfProjectTest1() {
+        JsonPath jsonPath = given()
+                .when()
+                .get(Endpoints.GET_PROJECTS)
+                .then()
+                .extract()
+                .jsonPath();
+
+        String name = jsonPath.getString("projects[0].name");
+        int id = jsonPath.getInt("projects[0].id");
+
+        Assert.assertEquals(id, 1);
+        Assert.assertEquals(name, "WP Test");
+
+    }
+
+    @Test
+    public void getExactProject() {
+
+        given()
+                .pathParam("project_id", 1)
+                .get(Endpoints.GET_PROJECTS)
+                .then()
+                .assertThat()
+                .statusCode(HttpStatus.SC_OK)
+                .body("id", is(1))
+                .body("name", equalTo("WP Test"));
+    }
+
+    @Test
+    public void getExactProjectAsObjectTest() {
+        Response response = given()
+                .pathParam("project_id", 1)
+                .get(Endpoints.GET_PROJECTS);
+
+        Project actualProject = new Gson().fromJson(response.getBody().asString(),Project.class);
+        Assert.assertEquals(actualProject.getName(),"WP Test");
+
+
+
+    }
+
+
 }
+
 
 

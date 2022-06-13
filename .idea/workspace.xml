@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea815617-7d58-43d6-ac1e-40455766b714" name="Changes" comment="class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Confuguration/Endpoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/models/Project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/models/ProjectType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/api/BaseApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/api/HttpClientTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/api/ReqresInTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/api/TestTrailApiTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TAF.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TAF.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Confuguration/Endpoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Confuguration/Endpoints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/services.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/services.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/api/HttpClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/api/HttpClientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/api/TestTrailApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/api/TestTrailApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +86,7 @@
       <recent name="models" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ReqresInTest.simpleShortApiTest">
+  <component name="RunManager" selected="TestNG.TestTrailApiTest.validateNameOfProjectsShortTest">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -157,24 +152,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelenideTest.poSelenideTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TAF" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="models.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.SelenideTest" />
-      <option name="METHOD_NAME" value="poSelenideTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SelenideTest.simpleSelenideTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TAF" />
       <extension name="coverage">
@@ -193,13 +170,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestTrailApiTest.validateNameOfProjectsShortTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TAF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.api" />
+      <option name="MAIN_CLASS_NAME" value="tests.api.TestTrailApiTest" />
+      <option name="METHOD_NAME" value="validateNameOfProjectsShortTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestTrailApiTest.validateNameOfProjectsShortTest" />
         <item itemvalue="TestNG.ReqresInTest.simpleShortApiTest" />
         <item itemvalue="TestNG.ReqresInTest.simpleStepByApiTest" />
         <item itemvalue="TestNG.HttpClientTest.simpleApiTest" />
         <item itemvalue="TestNG.SelenideTest.simpleSelenideTest" />
-        <item itemvalue="TestNG.SelenideTest.poSelenideTest" />
       </list>
     </recent_temporary>
   </component>
@@ -317,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654943725069</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="class">
+      <created>1654949182776</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1654949182776</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
