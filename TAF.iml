@@ -45,5 +45,7 @@
     <orderEntry type="library" name="Maven: io.qameta.allure:allure-java-commons:2.17.2" level="project" />
     <orderEntry type="library" name="Maven: io.qameta.allure:allure-model:2.17.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: io.qameta.allure:allure-test-filter:2.17.2" level="project" />
+    <orderEntry type="library" name="Maven: org.postgresql:postgresql:42.2.5" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-simple:1.7.29" level="project" />
   </component>
 </module>

@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea815617-7d58-43d6-ac1e-40455766b714" name="Changes" comment="class">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/general.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dbEntities/CustomersTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/models/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/services/DataBaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/db/BaseDBTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/db/dbTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TAF.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TAF.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/api/ProjectApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/api/ProjectApiTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +35,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="selenid" />
+        <entry key="$PROJECT_DIR$" value="api" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,19 +67,21 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/wrappers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/models" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="models" />
       <recent name="tests.api" />
       <recent name="baseEntities" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\proekt\src\test\java\models" />
+      <recent name="C:\proekt\src\test\java\dbEntities" />
       <recent name="C:\proekt\src\main\java\wrappers" />
       <recent name="C:\proekt\src\test\java\utils" />
       <recent name="C:\proekt\src\test\resources" />
-      <recent name="C:\proekt\src\test\java\baseEntities" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\proekt\src\test\java\baseEntities" />
@@ -338,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655143564836</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="class">
+      <created>1655309135221</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1655309135221</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
