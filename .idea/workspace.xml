@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea815617-7d58-43d6-ac1e-40455766b714" name="Changes" comment="class">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/general.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Confuguration/Endpoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Confuguration/Endpoints.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/services.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/services.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/api/HttpClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/api/HttpClientTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/api/TestTrailApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/api/TestTrailApiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/api/ProjectApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/api/ProjectApiTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -319,7 +317,28 @@
       <option name="project" value="LOCAL" />
       <updated>1654949182776</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="class">
+      <created>1655143520009</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1655143520009</updated>
+    </task>
+    <task id="LOCAL-00018" summary="class">
+      <created>1655143549034</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1655143549034</updated>
+    </task>
+    <task id="LOCAL-00019" summary="class">
+      <created>1655143564836</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1655143564836</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
