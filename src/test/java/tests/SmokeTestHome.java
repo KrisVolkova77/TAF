@@ -41,6 +41,7 @@ public class SmokeTestHome {
         selectHeatingType.selectByValue("2");
         heatLosses.sendKeys("800");
         button.click();
+
         floorCablePower.click();
         Assert.assertEquals(floorCablePower.getAttribute("value"), "1680");
         specFloorCablePower.click();
