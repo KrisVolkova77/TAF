@@ -5,12 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea815617-7d58-43d6-ac1e-40455766b714" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ContextMenuTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/DynamicControlsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/FileUploadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/FramesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/File Uploader.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ActionsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/AlertTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ContextMenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ContextMenuTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/DynamicControlsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/DynamicControlsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/FileUploadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/FileUploadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/FramTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/FramesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/FramesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/JSTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/MenuTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestCaseTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/WaitsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/WindowsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/LoginTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,10 +85,11 @@
       <recent name="C:\proekt\src\test\java\baseEntities" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\proekt\src\test\resources" />
       <recent name="C:\proekt\src\test\java\baseEntities" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ContextMenuTest.contextMenuTest">
+  <component name="RunManager" selected="TestNG.FramesTest.framesTest">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -86,24 +97,6 @@
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AlertTest.prontAlertTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TAF" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.AlertTest" />
-      <option name="METHOD_NAME" value="prontAlertTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,7 +119,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JSTest.actionTest1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DynamicControlsTest.dynamicControlsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TAF" />
       <extension name="coverage">
         <pattern>
@@ -135,8 +128,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.JSTest" />
-      <option name="METHOD_NAME" value="actionTest1" />
+      <option name="MAIN_CLASS_NAME" value="tests.DynamicControlsTest" />
+      <option name="METHOD_NAME" value="dynamicControlsTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -144,7 +137,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaitsTest.presenceOfElementTest1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FileUploadTest.fileUploadTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TAF" />
       <extension name="coverage">
         <pattern>
@@ -153,8 +146,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.WaitsTest" />
-      <option name="METHOD_NAME" value="presenceOfElementTest1" />
+      <option name="MAIN_CLASS_NAME" value="tests.FileUploadTest" />
+      <option name="METHOD_NAME" value="fileUploadTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FramesTest.framesTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TAF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.FramesTest" />
+      <option name="METHOD_NAME" value="framesTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -182,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.FramesTest.framesTest" />
+        <item itemvalue="TestNG.FileUploadTest.fileUploadTest" />
+        <item itemvalue="TestNG.DynamicControlsTest.dynamicControlsTest" />
         <item itemvalue="TestNG.ContextMenuTest.contextMenuTest" />
         <item itemvalue="TestNG.WindowsTest.newTabTest" />
-        <item itemvalue="TestNG.WaitsTest.presenceOfElementTest1" />
-        <item itemvalue="TestNG.JSTest.actionTest1" />
-        <item itemvalue="TestNG.AlertTest.prontAlertTest" />
       </list>
     </recent_temporary>
   </component>

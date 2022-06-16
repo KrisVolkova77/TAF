@@ -18,7 +18,9 @@ public class ContextMenuTest extends BaseTest {
         Actions actions = new Actions(driver);
         WaitsService wait = new WaitsService(driver, Duration.ofSeconds(10));
 
-        driver.findElement(By.cssSelector("hot-spot")).click();
+        actions.contextClick(driver.findElement(By.id("hot-spot")));
+        actions.build()
+                .perform();
 
         Alert alert = driver.switchTo().alert();
 

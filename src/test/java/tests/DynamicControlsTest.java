@@ -19,5 +19,7 @@ public class DynamicControlsTest extends BaseTest {
         WaitsService wait = new WaitsService(driver, Duration.ofSeconds(10));
 
         WebElement fileUploadPath = wait.waitForExists(By.id("checkbox"));
+
+      fileUploadPath.click();
     }
 }
