@@ -53,19 +53,6 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.Task_6">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="TAF" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="TAF" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Task_6" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TAF" />
       <option name="PACKAGE_NAME" value="" />
@@ -127,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Task_6" />
         <item itemvalue="TestNG.Task_6.task_6_1" />
         <item itemvalue="TestNG.Task_6.task_6" />
         <item itemvalue="TestNG.Task_6.Task_6" />
         <item itemvalue="TestNG.Task_6.swaglabs" />
+        <item itemvalue="TestNG.Task_6" />
       </list>
     </recent_temporary>
   </component>
