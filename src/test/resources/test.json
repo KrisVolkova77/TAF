@@ -1,0 +1,25 @@
+{
+  "username": "Ivanov",
+  "age": 28,
+  "smoke": "true",
+  "object": null,
+  "List": [1,2,3],
+  "ListOfObject": [
+    {
+      "param1": 1,
+      "param2": "qwert"
+    },
+    {
+      "param1": 1,
+      "param2": "qwert"
+    }
+  ]
+}
+
+
+{
+  "name": "Test Project",
+  "announcement": "Big test data...",
+  "show_announcement": false,
+  "type": 2
+}
