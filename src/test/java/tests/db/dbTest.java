@@ -10,17 +10,11 @@ public class dbTest {
 
     public class DBTest extends BaseDBTest {
 
-    @Test
+        private CustomersTable customersTable;
+
+        @Test
     public void firstTest() {
         logger.info("Test is started...");
-
-        CustomersTable customersTable = new CustomersTable(dataBaseService);
-        customersTable.dropTable();
-        customersTable.createCustomersTable();
-
-        customersTable.addCustomer("Иван", "Иванов", "ivanov@test.com", 28);
-        customersTable.addCustomer("Петр", "Петров", "petrov@test.com", 38);
-        customersTable.addCustomer("Марина", "Стасевич", "marina@test.com", 23);
 
         ResultSet rs = customersTable.getCustomers();
 

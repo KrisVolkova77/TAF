@@ -1,5 +1,6 @@
 package tests.db;
 
+import dbEntities.CustomersTable;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.AfterTest;
@@ -16,7 +17,16 @@ public class BaseDBTest {
 
     @BeforeTest
     public void setupConnection() {
+
         dataBaseService = new DataBaseService();
+
+        CustomersTable customersTable = new CustomersTable(dataBaseService);
+        customersTable.dropTable();
+        customersTable.createCustomersTable();
+
+        customersTable.addCustomer("Иван", "Иванов", "ivanov@test.com", 28);
+        customersTable.addCustomer("Петр", "Петров", "petrov@test.com", 38);
+        customersTable.addCustomer("Марина", "Стасевич", "marina@test.com", 23);
     }
 
     @AfterTest
