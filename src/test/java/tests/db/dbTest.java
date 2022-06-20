@@ -13,31 +13,59 @@ public class dbTest {
         private CustomersTable customersTable;
 
         @Test
-    public void firstTest() {
-        logger.info("Test is started...");
+        public void firstTest() {
+            logger.info("Test is started...");
 
-        ResultSet rs = customersTable.getCustomers();
+            ResultSet rs = customersTable.getCustomers();
 
-        try {
-            while (rs.next()) {
-                String userid = rs.getString("ID");
-                String firstName = rs.getString("firstname");
-                String lastName = rs.getString("lastname");
-                String email = rs.getString("email");
-                int age = rs.getInt("age");
+            try {
+                while (rs.next()) {
+                    String userid = rs.getString("ID");
+                    String firstName = rs.getString("firstname");
+                    String lastName = rs.getString("lastname");
+                    String email = rs.getString("email");
+                    int age = rs.getInt("age");
 
-                logger.info("userid: " + userid);
-                logger.info("firstname: " + firstName);
-                logger.info("lastname: " + lastName);
-                logger.info("email: " + email);
-                logger.info("age: " + age);
+                    logger.info("userid: " + userid);
+                    logger.info("firstname: " + firstName);
+                    logger.info("lastname: " + lastName);
+                    logger.info("email: " + email);
+                    logger.info("age: " + age);
+                }
+            } catch (SQLException throwables) {
+                logger.error(throwables.getMessage());
             }
-        } catch (SQLException throwables) {
-            logger.error(throwables.getMessage());
+
+            logger.info("Test is completed...");
         }
 
-        logger.info("Test is completed...");
+        @Test
+        public void customerByIdTest() {
+            logger.info("Test is started...");
+
+            ResultSet rs = customersTable.getCustomers();
+
+            try {
+                while (rs.next()) {
+                    String userid = rs.getString("ID");
+                    String firstName = rs.getString("firstname");
+                    String lastName = rs.getString("lastname");
+                    String email = rs.getString("email2");
+                    int age = rs.getInt("age");
+
+                    logger.info("userid: " + userid);
+                    logger.info("firstname: " + firstName);
+                    logger.info("lastname: " + lastName);
+                    logger.info("email: " + email);
+                    logger.info("age: " + age);
+                }
+            } catch (SQLException throwables) {
+                logger.error(throwables.getMessage());
+            }
+
+            logger.info("Test is completed...");
+        }
     }
 }
 
-}
+

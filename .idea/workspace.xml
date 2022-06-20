@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea815617-7d58-43d6-ac1e-40455766b714" name="Changes" comment="home">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/db/BaseDBTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/db/BaseDBTest.java" afterDir="false" />
+    <list default="true" id="ea815617-7d58-43d6-ac1e-40455766b714" name="Changes" comment="class">
+      <change beforePath="$PROJECT_DIR$/src/test/java/dbEntities/CustomersTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dbEntities/CustomersTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/helpers/ProjectHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/models/Project.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/models/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/api/BaseApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/api/HttpClientTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/api/ProjectApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/api/ReqresInTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/api/TestTrailApiTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/db/dbTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/db/dbTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -353,7 +360,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655319725192</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="class">
+      <created>1655742442767</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1655742442767</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
