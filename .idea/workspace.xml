@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea815617-7d58-43d6-ac1e-40455766b714" name="Changes" comment="class">
+      <change afterPath="$PROJECT_DIR$/src/test/java/dao/CustomerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dbEntities/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/services/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/HibernateSessionFactoryUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/db/BaseDBTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/db/BaseDBTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TAF.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TAF.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/models/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/CustomerSimple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/db/dbTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/db/dbTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +68,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/models" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/services" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -71,11 +78,11 @@
       <recent name="baseEntities" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\proekt\src\test\java\services" />
       <recent name="C:\proekt\src\test\java\models" />
       <recent name="C:\proekt\src\test\java\dbEntities" />
       <recent name="C:\proekt\src\main\java\wrappers" />
       <recent name="C:\proekt\src\test\java\utils" />
-      <recent name="C:\proekt\src\test\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\proekt\src\test\java\baseEntities" />
@@ -84,7 +91,7 @@
       <recent name="models" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.dbTest.customerByIdTest">
+  <component name="RunManager" selected="TestNG.dbTest.hibernateTest">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -92,24 +99,6 @@
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReqresInTest.simpleShortApiTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TAF" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="models.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.api" />
-      <option name="MAIN_CLASS_NAME" value="tests.api.ReqresInTest" />
-      <option name="METHOD_NAME" value="simpleShortApiTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -186,13 +175,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="dbTest.hibernateTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TAF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.db.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.db" />
+      <option name="MAIN_CLASS_NAME" value="tests.db.dbTest" />
+      <option name="METHOD_NAME" value="hibernateTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.dbTest.hibernateTest" />
         <item itemvalue="TestNG.dbTest.customerByIdTest" />
         <item itemvalue="TestNG.TestTrailApiTest.validateNameOfProjectsShortTest" />
         <item itemvalue="TestNG.SelenideTest.simpleSelenideTest" />
         <item itemvalue="TestNG.ReqresInTest.simpleStepByApiTest" />
-        <item itemvalue="TestNG.ReqresInTest.simpleShortApiTest" />
       </list>
     </recent_temporary>
   </component>
@@ -373,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655743335934</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="class">
+      <created>1655745872790</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1655745872790</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

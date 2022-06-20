@@ -1,10 +1,13 @@
 package tests.db;
 
+import dbEntities.Customer;
 import dbEntities.CustomersTable;
 import org.testng.annotations.Test;
+import services.CustomerService;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.List;
 
 public class dbTest extends BaseDBTest {
 
@@ -63,6 +66,19 @@ public class dbTest extends BaseDBTest {
             }
 
             logger.info("Test is completed...");
+        }
+
+        @Test
+    public void hibernateTest(){
+
+            CustomerService customerService = new CustomerService();
+            Customer customer = new Customer("Gleb", "Zhiglov","pet@test.com",44);
+
+            List <Customer> customerList = customerService.findAllUsers();
+            for (Customer cust:customerList){
+                logger.info(cust.toString());
+            }
+
         }
     }
 
