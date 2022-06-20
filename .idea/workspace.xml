@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea815617-7d58-43d6-ac1e-40455766b714" name="Changes" comment="class">
-      <change beforePath="$PROJECT_DIR$/src/test/java/dbEntities/CustomersTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dbEntities/CustomersTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/helpers/ProjectHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/models/Project.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/models/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/api/BaseApiTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/api/HttpClientTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/api/ProjectApiTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/api/ReqresInTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/api/TestTrailApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/db/dbTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/db/dbTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +84,7 @@
       <recent name="models" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestTrailApiTest.validateNameOfProjectsShortTest">
+  <component name="RunManager" selected="TestNG.dbTest.customerByIdTest">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,24 +92,6 @@
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HttpClientTest.simpleApiTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TAF" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="models.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.api" />
-      <option name="MAIN_CLASS_NAME" value="tests.api.HttpClientTest" />
-      <option name="METHOD_NAME" value="simpleApiTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -194,13 +168,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="dbTest.customerByIdTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TAF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.db.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.db" />
+      <option name="MAIN_CLASS_NAME" value="tests.db.dbTest" />
+      <option name="METHOD_NAME" value="customerByIdTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.dbTest.customerByIdTest" />
         <item itemvalue="TestNG.TestTrailApiTest.validateNameOfProjectsShortTest" />
         <item itemvalue="TestNG.SelenideTest.simpleSelenideTest" />
         <item itemvalue="TestNG.ReqresInTest.simpleStepByApiTest" />
         <item itemvalue="TestNG.ReqresInTest.simpleShortApiTest" />
-        <item itemvalue="TestNG.HttpClientTest.simpleApiTest" />
       </list>
     </recent_temporary>
   </component>
@@ -367,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655742442767</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="class">
+      <created>1655742867600</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1655742867600</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -6,9 +6,8 @@ import org.testng.annotations.Test;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-public class dbTest {
+public class dbTest extends BaseDBTest {
 
-    public class DBTest extends BaseDBTest {
 
         private CustomersTable customersTable;
 
@@ -66,6 +65,6 @@ public class dbTest {
             logger.info("Test is completed...");
         }
     }
-}
+
 
 
