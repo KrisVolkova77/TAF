@@ -11,6 +11,7 @@ public class BaseDBTest {
     Logger logger = LoggerFactory.getLogger(BaseDBTest.class);
 
     public DataBaseService dataBaseService;
+    CustomersTable customersTable;
 
     public BaseDBTest() {
     }
@@ -20,7 +21,7 @@ public class BaseDBTest {
 
         dataBaseService = new DataBaseService();
 
-        CustomersTable customersTable = new CustomersTable(dataBaseService);
+        customersTable = new CustomersTable(dataBaseService);
         customersTable.dropTable();
         customersTable.createCustomersTable();
 
