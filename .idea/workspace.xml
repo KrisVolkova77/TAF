@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea815617-7d58-43d6-ac1e-40455766b714" name="Changes" comment="class">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TAF.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TAF.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/SelenideTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SelenideTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lombok" />
+        <entry key="$PROJECT_DIR$" value="selenid" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -84,7 +81,7 @@
       <recent name="models" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SelenideTest.simpleSelenideTest">
+  <component name="RunManager" selected="TestNG.SelenideTest.poSelenideTest">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -187,8 +184,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SelenideTest.simpleSelenideTest" />
         <item itemvalue="TestNG.SelenideTest.poSelenideTest" />
+        <item itemvalue="TestNG.SelenideTest.simpleSelenideTest" />
         <item itemvalue="TestNG.SelenideTest.selenideTest1" />
         <item itemvalue="TestNG.SelenideTest" />
         <item itemvalue="TestNG.ProjectTest.addProjectTest" />
