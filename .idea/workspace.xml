@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea815617-7d58-43d6-ac1e-40455766b714" name="Changes" comment="class">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/SelenideTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SelenideTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +83,7 @@
       <recent name="models" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SelenideTest.poSelenideTest">
+  <component name="RunManager" selected="TestNG.SelenideTest">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -184,10 +186,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SelenideTest" />
         <item itemvalue="TestNG.SelenideTest.poSelenideTest" />
         <item itemvalue="TestNG.SelenideTest.simpleSelenideTest" />
         <item itemvalue="TestNG.SelenideTest.selenideTest1" />
-        <item itemvalue="TestNG.SelenideTest" />
         <item itemvalue="TestNG.ProjectTest.addProjectTest" />
       </list>
     </recent_temporary>
@@ -292,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654536288326</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="class">
+      <created>1655751691886</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1655751691886</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

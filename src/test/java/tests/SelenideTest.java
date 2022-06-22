@@ -8,6 +8,8 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 import pages.LoginPage;
 
+import java.time.Duration;
+
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
@@ -17,11 +19,15 @@ public class SelenideTest {
 
     @BeforeSuite
     public void setupBrowser() {
+        Configuration.baseUrl = ReadProperties.getUrl();
         Configuration.browser = ReadProperties.browserName();
-        Configuration.browserSize = "1366x768";
-        Configuration.reportsFolder = "target/reports";
+        Configuration.browserSize = "1960x1080";
+        //Configuration.headless = true;
+        Configuration.reportsFolder = "target/screens";
+        Configuration.pageLoadTimeout = Duration.ofSeconds(30).toMillis();
+        Configuration.timeout = Duration.ofSeconds(20).toMillis();
 
-        SelenideLogger.addListener("AllureSelenide", new AllureSelenide());     // Базовая версия
+        SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
     }
 
     @Test
@@ -32,7 +38,7 @@ public class SelenideTest {
 
         loginPage.username.setValue(ReadProperties.username());
         loginPage.password.setValue(ReadProperties.password());
-        loginPage.button.click();
+        loginPage.loginButton.click();
 
         $(".page_title").shouldBe(visible).shouldHave(text("All Projects"));
     }
