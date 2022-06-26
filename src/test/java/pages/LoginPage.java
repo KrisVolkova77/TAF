@@ -7,8 +7,8 @@ import static com.codeborne.selenide.Selenide.$;
 
 public class LoginPage {
 
-   public SelenideElement username =  $(By.id("name"));
+   public SelenideElement username =  $(By.id(".input"));
    public SelenideElement password = $(By.id("password"));
-    public SelenideElement button= $(By.id("button"));
+    public SelenideElement button= $(By.id("button is-vcentered"));
 
 }
